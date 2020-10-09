@@ -1,4 +1,4 @@
-* {
+* { /*this code applies to all css elements in this stylesheet*/
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -8,7 +8,8 @@ body {
     background-color: #d9dcd6;
 }
 
-header {
+/*header styling*/
+header { 
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -24,6 +25,7 @@ header h1 {
     color: #d9dcd6;
 }
 
+/*navigational styling*/
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -50,7 +52,7 @@ p {
     font-size: 16px;
 }
 
-.hero {
+.hero { /*main header image, separates the navigation and header from the sections*/
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -69,13 +71,13 @@ p {
     margin-left: 25px;
 }
 
-#content { 
+#content { /*wrapper for main content*/
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-#benefits {
+#benefits { /*wrapper for aside content*/
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -112,7 +114,7 @@ section {
 }
 
 #search-engine-optimization, #online-reputation-management, #social-media-marketing {
-
+/*giving ID's to sections, not necessary but included just in case*/
 }
 
 section img {
