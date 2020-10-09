@@ -1,6 +1,6 @@
 # Horiseon Accessibility Refactoring Project
 
-This project aimed to make an existing site more accessibile to those with disabilities. The original coding made use of division elements through its entirety. Accessibility was achieved by using semantic elements, such as headers, footers, sections, and asides. 2 division elements were used as wrappers to contain both the section and asides elements.
+This project aimed to make an existing site more accessible to those with disabilities. The original coding made use of division elements through its entirety. Accessibility was achieved by using semantic elements, such as headers, footers, sections, and asides. 2 division elements were used as wrappers to contain both the section and asides elements.
 
 ```
 alt=""
